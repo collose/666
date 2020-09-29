@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我是你爹！</title>
+    <style>
+        #ni{
+    background-color:aqua;
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:100px;
+}
+    </style>
+</head>
+<body>
+    <div id="ni" class="box">
+    </div>
+    <div>
+        <input type="button" class="btn1" value="移动">
+    </div>
+    <script>
+        var jk = document.getElementsByClassName("btn1");
+        jk.onclick=function(){
+           var ni=Document.getElementsById("ni").style.left;
+           ni=ni.replace("px"," ");
+           ni=Number(ni)+ 5;
+          Document.getElementsById("ni").style.left=ni+"px";
+        }
+    </script>
+</body>
+</html>
