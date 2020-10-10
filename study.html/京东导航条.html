@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京东导航条</title>
+    <style>
+        .box{
+         width:100%;
+         background-color:#E3E4E5;
+         line-height: 29px;
+         border:1px #dddddd solid;
+        }
+        .inner{
+        width:1190px;
+        margin: 0 auto;
+        }
+        .location{
+            float:left;
+        }
+        .location fas{
+            color:#f10215;
+            font-size: 14px;
+        }
+        .location .current-city a{
+          color:#9999;
+         text-decoration:none;
+        }
+        .inner2 a:hover{
+            color:#f10215;
+        }
+
+        .inner2{
+            float:right;
+        }
+        .cleafix::before,.clearfix::after{
+            content:" ";
+            clear:both;
+            display:table;
+        } 
+        .inner li{
+            float:left;
+        }  
+        body{
+            font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+            color:#9999;
+
+        } 
+        .inner2 a,.inner2 span,.inner2 i{
+            color:#9999;
+            text-decoration:none;
+        }
+          .inner2 a.good{
+           color:#f10215;
+          }
+        .inner .line{
+             width:1px;
+             height:10px;
+             background-color:#9999;
+             margin:10px 12px;
+        }
+    </style>
+    <link rel="stylesheet" href=".font.css">
+    <link rel="stylesheet" href="../font.css">
+</head>
+<body>
+    <div class="box clearfix">
+        <div class="inner">
+            <!-- 左侧导航栏-->
+            <div class="location">
+              <div class="current-city">
+                  <i class="fas "fa-map-maker-alt""></i>
+                  <a href="javascript:;">北京</a>
+              </div>
+            </div>
+            <!--右侧导航栏-->
+            <ul class="inner2">
+                <li>
+                    <a href="javascript:;">您好，请登录</a>
+                    <a class="good" href="javascript:;">免费注册</a>
+               </li>
+                <li class="line"></li>
+                <li><a href="javascript:;">我的订单</a></li>
+
+                <li class="line"></li>
+                <li>
+                    <a href="javascript:;">我的京东</a>
+                    <i class="fas "fa-angle-down""></i>
+                </li>
+
+                <li class="line"></li>
+                <li><a href="javascript::">京东会员</a></li>
+
+                <li class="line"></li>
+                <li>
+                    <a class="good" href="javascript:;">企业采购</a>
+                    <i class="fas "fa-angle-down""></i>
+                </li>
+
+                <li class="line"></li>
+                    <li>
+                        <span>客户服务</span>
+                    <i class="fas "fa-angle-down"></i>
+                    </li> 
+              
+                <li class="line"> </li>
+                <li>
+                    <span>网站导航</span>
+                    <i class="fas "fa-angle-down""></i>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <span>手机京东</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
