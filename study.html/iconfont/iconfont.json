@@ -1,0 +1,23 @@
+{
+  "id": "2121251",
+  "name": "new iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1833855",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "6275359",
+      "name": "定位",
+      "font_class": "icon-test",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
