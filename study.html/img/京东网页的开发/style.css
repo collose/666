@@ -1,0 +1,293 @@
+.all{
+    width:1500px;
+    height:1200px;
+    background-color:aliceblue;
+}
+.head{
+    width:100%;
+    line-height: 30px;
+    background-color:#E3E4E5;
+    border-bottom:1px  #dddddd solid;
+}
+.head-top{
+         width:1190px;
+         margin:0 auto;
+}
+.current-city{
+    float:left;
+}
+.head-top .location{
+    display:none;
+    width:300px;
+    height:421px;
+    background-color:white;
+    position:absolute;
+    z-index:999;
+    border:1px transparent solid;
+    border-top:none;
+}
+.head-top:hover .current-city{
+       background-color:white;
+}
+.current-city:hover .location{
+     display:block;
+}
+.head-top .items{
+    width:40px;
+    height:30px;
+    background-color:white;
+    float:left;
+    margin:8px 10px;
+}
+.head-top .items a{
+     color:#666;
+
+}
+.items .checked2{
+    background-color:#f10215;
+}
+hr{
+    width:200px;
+    color:white;
+}
+.head-top .stick{
+     width:200px;
+     height:50px;
+     }
+.head-top .others{
+      width:90px;
+      height:20px;
+      float:left;
+}
+.head-top .l{
+    color:#666;
+}
+.x:hover{
+   background-color:white;
+}
+.x:hover .x-box{
+      display:block;
+}
+.x-box{
+    width:230px;
+    height:200px;
+    position:absolute;
+    display:none;
+    z-index:1000;
+    background-color:white;
+}
+.x-box-items{
+   width:70px;
+   height:20px;
+   float:left;
+   margin:8px 14px;
+}
+.x-box-items2{
+    width:60px;
+    height:16px;
+    float:left;
+    margin:8px 14px;
+}
+.box:hover .box-lan{
+   display:block;
+}
+.box:hover{
+   background-color:white;
+}
+.box-lan{
+   width:200px;
+   height:120px;
+   background-color:white;
+   position:absolute;
+   display:none;
+   z-index:1001;
+}
+.box-items{
+   width:70px;
+   height:25px;
+   float:left;
+   margin:8px 10px;
+}
+.box2:hover .box2-lan{
+   display:block;
+}
+.box2:hover{
+   background-color:white;
+}
+.box2-lan{
+   width:200px;
+   height:360px;
+   background-color:white;
+   position:absolute;
+   display:none;
+   z-index:1002;
+}
+.box2-items{
+     width:70px;
+     height:20px;
+     margin:8px 10px;
+     float:left;
+}
+.box2-items2{
+   width:60px;
+   height:20px;
+   margin:8px 10px;
+   float:left;
+}
+.top-line{
+    float:right;
+}
+.clearfix::before,.clearfix::after{
+    content:' ';
+    clear:both;
+    display:table;   
+}
+.top-line li{
+    float:left;
+}
+body{
+     font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arical,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+.head-top a,.head-top span,.head-top i{
+    color:#9999;
+    text-decoration:none;
+}
+.head-top .light-red{
+   color:red;
+}
+.head-top a:hover{
+color:#f10215;
+}
+.head-top .red{
+color:#f10251;
+}
+.top-line .in-line{
+  width:1px;
+  height:10px;
+  background-color:#9999;
+  margin:10px 12px;
+}
+.body{
+  width:1200px;
+  height:800px;
+  background-color:white;
+  margin:0 auto;
+}
+.b1{
+width:1000px;
+height:50px;
+background-color:aliceblue;
+margin:9px auto;
+}
+.inner{
+ width:1000px;
+ line-height:45px;
+ margin:0 auto;
+}
+.inner li{
+   float:left;
+}
+.inner li a{
+ display:block;
+ font-size:16px;
+ color:#666;
+ padding:0 14px;
+ text-decoration:none;
+}
+.inner .red{
+ color:#f10215;
+
+}
+.inner li a:hover{
+   color:red;
+}
+.p2{
+ width:400px;
+ height:600px;
+ background-color:white;
+}
+.inner2{
+width:300px;
+height:580px;
+background-color:white;
+}
+.left-lan{
+ width:245px;
+ height:567px;
+ background-color:#ffffff;
+ border:1px aliceblue solid;
+}
+.left-lan  li{
+    line-height:10px;
+}  
+.left-lan  li a{
+display:block;
+font-size:16px;
+color:#666;
+padding:10px 12px;
+text-decoration:none;
+}
+.left-lan li a:hover{ 
+ color:red;
+}
+.p3{
+ width:600px;
+ height:500px;
+}
+.mid-imgs{
+   width:580px;
+   width:480px;
+   position:relative;
+}
+.img-list{
+   width:576px;
+   height:557px;
+   background-color:pink;
+   position:absolute;
+   top:-590px;
+   left:283px;
+}
+.img-list li{
+position:absolute;
+}
+.mid-imgs .img-list li:nth-child(2){
+z-index:20;
+}
+.img-list img{
+ width:100%;
+}
+.img-list .pointers a{
+   width:15px;
+   height:15px;
+   background-color:rgba(255, 255, 255, .6);
+   float:left;
+   border-radius:50%;
+   margin:0 8px;
+}
+.img-list .pointers {
+position:absolute;
+z-index:10;
+bottom:10px;
+}
+.img-list .pointers .checked{
+  background-color:aliceblue;
+}
+.end{
+ width:300px;
+ height:580px;
+}
+.inner3{
+  width:200px;
+  height:576px;
+  position:absolute;
+  top:110px;
+  left:1030px;
+ 
+}
+.inner3 li {
+ margin:8px 0;
+ float:right;
+ }
+.inner3 img{
+ width:100%;
+}
